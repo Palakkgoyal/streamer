@@ -1,3 +1,4 @@
+import MeetingTypeList from "@/components/MeetingTypeList";
 import React from "react";
 
 const Home = () => {
@@ -23,12 +24,12 @@ const Home = () => {
               {currentTime}
             </h1>
             <p className="text-lg font-medium text-sky-1 lg:text-2xl">
-              {/* Monday, April 1, 2024 */}
               {date}
             </p>
           </div>
         </div>
       </div>
+      <MeetingTypeList />
     </section>
   );
 };
